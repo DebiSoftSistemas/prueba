@@ -13,4 +13,4 @@ $routes->get('/christian', 'YSchristian::vista');
 $routes->get('/vacio', 'Rothman::vacio');
 
 // Servicios
-$routes->get('/bienvenida', 'Servicio/Ejemplo::bienvenida');
+$routes->get('/bienvenida', 'Servicio\Ejemplo::bienvenida');

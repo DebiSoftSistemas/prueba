@@ -13,7 +13,7 @@ class Ejemplo extends ResourceController {
         ]);
     }
 
-    public function jsonTexto($i_texto = '') {
+    public function jsonTexto($i_texto = 'NO CUENTA CON VALOR') {
         return $this->respond([
             "fecha" => date('Y-m-d H:i:s'),
             "mensaje" => "Bienvenido a CODEIGNITER 4",

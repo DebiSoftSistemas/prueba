@@ -6,8 +6,8 @@
     <p class="subtitle">TECNOLOGÍA • INNOVACIÓN • ESTILO</p>
 
     <div class="social-links">
-      <a href="#" target="_blank">⌨️</a>
-      <a href="#" target="_blank">💻</a>
+      <a href="<?php echo base_url();?>/rothman" target="_blank">⌨️</a>
+      <a href="<?php echo base_url();?>/vacio" target="_blank">💻</a>
       <a href="#" target="_blank">🎧</a>
       <a href="#" target="_blank">📱</a>
       <a href="#" target="_blank">🚀</a>

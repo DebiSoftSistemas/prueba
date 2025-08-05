@@ -24,3 +24,5 @@ $routes->get('/jsonTexto', 'Servicio\Ejemplo::jsonTexto');
 //
 $routes->post('/','Servicio\spusuario::usuario');
 >>>>>>> fcf3659659c4575ff84acce4a702f6afee285271
+
+$routes->post('/', 'Servicio\christian::usercris');

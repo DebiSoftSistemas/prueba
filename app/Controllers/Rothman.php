@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
+class Rothman extends BaseController
 {
     public function vista(): string
     {

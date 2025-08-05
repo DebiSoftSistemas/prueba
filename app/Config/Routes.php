@@ -8,3 +8,4 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 $routes->get('/welcome', 'Home::welcome');
 $routes->get('/rothman', 'Rothman::vista');
+$routes->get('/sp','SPController::index');

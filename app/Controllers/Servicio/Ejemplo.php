@@ -8,7 +8,7 @@ class Ejemplo extends ResourceController {
 
     public function jsonBienvenida() {
         return $this->respond([
-            "fecha" => new Date(),
+            "fecha" => date('Y-m-d H:i:s'),
             "mensaje" => "Bienvenido a CODEIGNITER 4"
         ]);
     }

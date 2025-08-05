@@ -11,4 +11,9 @@ class Rothman extends BaseController
         // return view('rothman');
         return view('head') . view('body') . view('footer');
     }
+
+    public function vacio(): string
+    {
+        return view('head')  . view('footer');
+    }
 }

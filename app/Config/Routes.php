@@ -21,4 +21,4 @@ $routes->get('/jsonTexto', 'Servicio\Ejemplo::jsonTexto');
 //
 $routes->post('/','Servicio\spusuario::usuario');
 
-$routes->post('/', 'Servicio\christian::usercris');
+$routes->post('/usercris', 'Servicio\christian::usercris');

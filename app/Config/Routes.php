@@ -10,3 +10,4 @@ $routes->get('/welcome', 'Home::welcome');
 $routes->get('/rothman', 'Rothman::vista');
 $routes->get('/sp','SPController::index');
 $routes->get('/christian', 'YSchristian::vista');
+$routes->get('/vacio', 'Rothman::vacio');

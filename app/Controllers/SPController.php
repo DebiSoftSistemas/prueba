@@ -8,6 +8,6 @@ class SPController extends BaseController{
 
     public function index(): string
     {
-        return view('spheader,spbody,spfooter');
+        return view('spheader').view('spbody').view('spfooter');
     }
 }

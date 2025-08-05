@@ -15,3 +15,4 @@ $routes->get('/vacio', 'Rothman::vacio');
 // Servicios
 $routes->get('/bienvenida', 'Servicio\Ejemplo::bienvenida');
 $routes->get('/jsonResponse', 'Servicio\Ejemplo::jsonBienvenida');
+$routes->get('/jsonTexto/(:segment)', 'Servicio\Ejemplo::jsonTexto/$1');

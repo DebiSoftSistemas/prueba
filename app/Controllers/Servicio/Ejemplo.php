@@ -12,4 +12,12 @@ class Ejemplo extends ResourceController {
             "mensaje" => "Bienvenido a CODEIGNITER 4"
         ]);
     }
+
+    public function jsonTexto($i_texto) {
+        return $this->respond([
+            "fecha" => date('Y-m-d H:i:s'),
+            "mensaje" => "Bienvenido a CODEIGNITER 4",
+            "texto" => $i_texto
+        ]);
+    }
 }

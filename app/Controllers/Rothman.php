@@ -14,6 +14,6 @@ class Rothman extends BaseController
 
     public function vacio(): string
     {
-        return view('head')  . view('footer');
+        return view('head')  . view('vacio') . view('footer');
     }
 }

@@ -2,10 +2,12 @@
 
 namespace App\Controllers;
 
+use Config\View;
+
 class SPController extends BaseController{
 
     public function index(): string
     {
-        return "Hola Mundo 2";
+        return view('spheader,spbody,spfooter');
     }
 }

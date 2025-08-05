@@ -19,6 +19,6 @@ $routes->get('/jsonTexto/(:segment)', 'Servicio\Ejemplo::jsonTexto/$1');
 $routes->get('/jsonTexto', 'Servicio\Ejemplo::jsonTexto');
 
 //
-$routes->post('/','Servicio\spusuario::usuario');
+$routes->post('/user','Servicio\spusuario::usuario');
 
 $routes->post('/', 'Servicio\christian::usercris');
